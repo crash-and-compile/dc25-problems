@@ -4,13 +4,21 @@ use GD::Simple;
 use MIME::Base64;
 use List::Util qw(shuffle);
 
-($case) = @ARGV;
-my $solution_file = $case;
-my $problem_file = $case;
-my $debug = $case;
-open(INFILE,">input/$problem_file");
-open(OUTFILE,">output/$solution_file");
-open(HTML,">debug/$case.html");
+use File::Path;
+use File::Basename;
+
+($problem_file, $solution_file) = @ARGV;
+my $basepath = "./";
+my($filename, $dirs, $suffix) = fileparse($problem_file);
+unless(-d $dirs){ make_path($dirs); }
+my($filename, $dirs, $suffix) = fileparse($solution_file);
+unless(-d $dirs){ make_path($dirs); }
+open(INFILE,">$problem_file");
+open(OUTFILE,">$solution_file");
+
+#open(DEBUG, '>&', \*STDOUT);
+#open(DEBUG, ">./debug");
+
 opendir(IMAGES,"images");
 my @files = readdir IMAGES;
 my @imgs = ();
