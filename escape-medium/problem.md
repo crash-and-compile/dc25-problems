@@ -14,12 +14,12 @@ You will be provided an ASCII map consiting of spaces and '=' characters, as wel
 
 Numeric characters represent breakers. Each breaker must be visited, and in order.
 
-The end of a map is indicated by a line of '_' characters.
+The end of a map is indicated by a line of '%' characters.
 
 ## OUTPUT
 You must output the (x,y) coordinates that provide the optimal route to escape, ensuring that all breaker panels have been accessed in order. The first coordinate will always be the location of the 'S', and the last will always be the coordinate of the 'E'.
 
-Each set of coordinates for a route should end in a line of '_' characters.
+Each set of coordinates for a route should end in a line of '%' characters.
 
 ## SAMPLE INPUT
 =S====================
@@ -44,7 +44,7 @@ E =  ====  =    =    =
 =     = = ==    =   ==
 == ==       = = = ====
 ======================
-_______________________________________________________________
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 ## SAMPLE OUTPUT
 (2,1)
@@ -192,4 +192,4 @@ _______________________________________________________________
 (2,15)
 (2,14)
 (1,14)
-_______________________________________________________________
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

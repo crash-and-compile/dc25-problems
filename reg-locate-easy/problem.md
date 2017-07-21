@@ -10,7 +10,7 @@ Begin analysis of primary sectors G-9 through G-21. The key indicator of a poten
 ## INPUT
 The input will be a series of Base64 encoded images, one per line. Each sector will have mutliple images associated with it, representing light readings over time.
 
-Images for different sectors are indicated by a line of '_' characters.
+Images for different sectors are indicated by a line of '%' characters.
 
 ## The Output
 Print the grid reference for potentially inhabited systems in that sector. The grid is arranged as follows:
@@ -39,7 +39,7 @@ iVBORw0KGgoAAAANSUhEUgAAADMAAAAzBAMAAADIjy0ZAAAAD1BMVEX///8AAACAgIAAgAD/AADjPYHo
 iVBORw0KGgoAAAANSUhEUgAAADMAAAAzAgMAAABHz9i5AAAADFBMVEX///8AAACAgIAAgACBAIh3AAAAZUlEQVQokWNYhQRWMDQwcDAACQsGMAvK46AXD6tbcOkTQOGFIPM4Q3HLoekj4JZZKG4JQVEpQKL/PKgVLgIIOQmEo4BECLockOEAJJhhZjIGoNgQQLlboMIGKCr/IHgt6HI0Sy8ATliAfwCcjBEAAAAASUVORK5CYII=
 iVBORw0KGgoAAAANSUhEUgAAADMAAAAzAgMAAABHz9i5AAAADFBMVEX///8AAACAgIAAgACBAIh3AAAAZ0lEQVQokWNYhQRWMDQwcDAACQsGMAvK46AXD6tbECpDkHmcocg81lAHInmo+lDNJOQWA4r8d4IG4WLB0CCA4P2ByzFD5IC8A0CC/wDUTOYPUDmIDReoH0cMDC0MHAII3lR0OZqlFwCXfoSMy/FlWQAAAABJRU5ErkJggg==
 iVBORw0KGgoAAAANSUhEUgAAADMAAAAzAgMAAABHz9i5AAAADFBMVEX///8AAACAgIAAgACBAIh3AAAAYklEQVQokWNYBQGzQMQKhgYGDgYgEcIAZkF5Eig8DtrxViGBFZgqQ5B5nKHIPNZQByJ5qPpQzSTkFgOK/OdBm3ARQPAkcJjCDOcVoMj9QeEZUCOOGBh6GDgMELz96HI0Sy8AhU+Bhdfc24cAAAAASUVORK5CYII=
-_______________________________________________________________
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 ## Sample output
 B2

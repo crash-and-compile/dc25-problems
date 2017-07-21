@@ -12,12 +12,12 @@ You must use your local copy of the facility blueprints to identify efficient ev
 ## INPUT
 You will be provided an ASCII map consiting of spaces and '=' characters, as well as an 'S' and an 'E'. The 'S' indicates your start position. You may only move up,down,left or right to a space. 
 
-The end of a map is indicated by a line of '_' characters.
+The end of a map is indicated by a line of '%' characters.
 
 ## OUTPUT
 You must output the (x,y) coordinates that provide the shortest route to escape, as shown below. The first coordinate will always be the location of the 'S', and the last will always be the coordinate of the 'E'.
 
-Each set of coordinates for a route should end in a line of '_' characters.
+Each set of coordinates for a route should end in a line of '%' characters.
 
 ## SAMPLE INPUT
 ========S=============
@@ -42,7 +42,7 @@ E   == =  ==     = = =
 == ==== = = =    === =
 ==        =   ==     =
 ======================
-_______________________________________________________________
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 ## SAMPLE OUTPUT
 (9,1)
@@ -164,4 +164,4 @@ _______________________________________________________________
 (2,10)
 (2,9)
 (1,9)
-_______________________________________________________________
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

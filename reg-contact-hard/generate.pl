@@ -132,7 +132,7 @@ my %n2l = reverse %l2n;
 		print INFILE "$fline\n";
 	}
 	print OUTFILE "$message\n";
-	print INFILE "_______________________________________________________________\n";
+	print INFILE "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n";
 }
 
 

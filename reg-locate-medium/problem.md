@@ -10,7 +10,7 @@ Begin analysis of primary sectors G-9-35 through G-9-41. The key indicator of a 
 ## INPUT
 The input will be a series of Base64 encoded images, one per line.
 
-Images for different sectors are indicated by a line of '_' characters.
+Images for different sectors are indicated by a line of '%' characters.
 
 ## The Output
 Print the grid reference for potential incoming fleet from each image. The grid is arranged as follows:
@@ -41,7 +41,7 @@ iVBORw0KGgoAAAANSUhEUgAAADMAAAAzAgMAAABHz9i5AAAACVBMVEX///8AAACAgIBJX6m2AAAAUUlE
 iVBORw0KGgoAAAANSUhEUgAAADMAAAAzAgMAAABHz9i5AAAACVBMVEX///8AAACAgIBJX6m2AAAAV0lEQVQokWNYhQRWMDQwcDAgCCrwHJB5jQG45UAELdzSgsKbCsQsKHKiKPpYaOoWQjwHZB5jAIpbsshxiwMyDxT6uOSIN5Mu4cKIwmNFCRdRlHBZCg8XAP6rfgyhID6HAAAAAElFTkSuQmCC
 iVBORw0KGgoAAAANSUhEUgAAADMAAAAzAgMAAABHz9i5AAAACVBMVEX///8AAACAgIBJX6m2AAAAXklEQVQokWNYhQRWMDQwcDAgCCrwHJB5jQG45UAELdzSgsKbiiHHgkMfjcMFynNA5jEGIPNYQ5DdsjIKxS0OxNnggMwDhT4uOeJdTZdwYUThsaL4VjQA2S1Ls2BuAQB08X57ma1oaAAAAABJRU5ErkJggg==
 iVBORw0KGgoAAAANSUhEUgAAADMAAAAzAgMAAABHz9i5AAAACVBMVEX///8AAACAgIBJX6m2AAAAZklEQVQokWNYhQRWMDQwcDAgCCrwHJB5jQG45UAELdzSAsQscN5UIBZFkQt1QNYniuKWZbQLFyjPAZnHGIDMYw1BdsvKKBS3OBBngwMyDxT6uOSIdzWN0ws2HiMKj9UB2S0r4W4BANTQfpVNtppIAAAAAElFTkSuQmCC
-_______________________________________________________________
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 ## Sample output
 B3

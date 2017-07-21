@@ -74,7 +74,7 @@ for(my $cases = 0; $cases < $casecnt; $cases++){
 		print INFILE "$token\n";
 		$mixed .= $token;
 	}
-	print INFILE "_______________________________________________________________\n";
+	print INFILE "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n";
 	my $fixed = "";
 	foreach my $token (sort keys %tokens){
 		$fixed .= $tokens{$token};

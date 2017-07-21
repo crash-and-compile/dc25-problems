@@ -34,7 +34,7 @@ You must output the decoded message in all capital letters, including spaces, on
                    ***************                   
                      ***********                     
         *************************************        
-_______________________________________________________________
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 ## SAMPLE OUTPUT
 DANGER DANGER DANGER

@@ -150,6 +150,6 @@ for(my $cases = 0; $cases < $casecnt; $cases++){
 		print INFILE "$input\n";
 	}
 
-	print INFILE "_______________________________________________________________\n";
+	print INFILE "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n";
 	print OUTFILE "$outx$outy\n";
 }

@@ -236,7 +236,7 @@ for(my $cases = 0; $cases < $casecnt; $cases++){
 				$subcases++;
 			}
 			print HTML "<hr>";
-			print INFILE "_______________________________________________________________\n";
+			print INFILE "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n";
 			print OUTFILE "$outx$outy\n";
 			$pass = 1;
 

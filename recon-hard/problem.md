@@ -13,7 +13,7 @@ You must reconstruct the images so we can develope an accurate target profile.
 ## INPUT
 The input will be a series of index values and Base64 encoded images, tab delimited one per line.
 
-Groups of images are indicated by a line of '_' characters.
+Groups of images are indicated by a line of '%' characters.
  
 ## The Output
 You must output the correct sequence to order the images, left-to-right, top-to bottem. For example, to order the images like:
@@ -33,7 +33,7 @@ the output should be 123456789.
 7	iVBORw0KGgoAAAANSUhEUgAAABkAAAAeCAMAAADuMkXpAAAA7VBMVEUAAAABAQECAgIDAwMEBAQFBQUGBgYICAgJCQkNDQ0ODg4SEhIUFBQYGBgaGhobGxsdHR0hISEnJycqKiotLS0vLy80NDQ2NjY3Nzc4ODg8PDxCQkJERERHR0dISEhJSUlSUlJTU1NYWFhaWlpvb291dXV2dnZ3d3d+fn6CgoKLi4uMjIyQkJCRkZGTk5OZmZmdnZ2ioqKlpaWqqqqtra20tLS7u7u8vLy9vb3BwcHHx8fNzc3W1tbc3Nzf39/n5+fq6urr6+vu7u7w8PDy8vL29vb39/f4+Pj5+fn6+vr7+/v8/Pz9/f3+/v7////PNlVLAAABC0lEQVQokXXNaVMCMQwG4LfdBQ/AE2/xwBPxPvFARRG6u23+/88x24KDM5t8yEzy5G3hyJdzLqXbcilSzb6z+QY0IiJrv/YRlfBCQRI+H6UMXU/HkWplFDKGxrHMfm6jpJZ6fkaXjA0x5xI6hY7xHDIbT+SMC5bYTg2RPkm9oNY2ZBI2cpnrNxBheeAlBnbv+Ny/OaQDXuj3kNEKlZ17/sakdujOYqXwGAScR2W9/cHTIOnMQeFiLFBs5cXNqzei3io0jv6ETXObqi40zussexOSo8p7nJ/U/8tEzYgCUWZFmRdlRZQtUZqiHIrSEuVSEIUHMfMqZrpSpvpd+BLX2k/xXuM4K5YIN/6PX5nyUALD0E0TAAAAAElFTkSuQmCC
 8	iVBORw0KGgoAAAANSUhEUgAAABkAAAAeCAMAAADuMkXpAAAA0lBMVEUAAAABAQECAgIDAwMEBAQFBQUGBgYHBwcICAgJCQkKCgoNDQ0PDw8QEBASEhITExMZGRkfHx8qKio7Ozs9PT0/Pz9CQkJERERISEhRUVFXV1daWlpbW1tra2ttbW1ubm51dXV7e3t/f3+AgICEhISJiYmNjY2Pj4+WlpaampqdnZ2fn5+ioqK6urrFxcXKysrMzMzS0tLV1dXf39/g4ODi4uLk5OTm5ubp6ens7Ozx8fHz8/P09PT29vb4+Pj5+fn6+vr7+/v8/Pz9/f3+/v7///+IPoozAAABHUlEQVQokW2S50LDMAyELzEUyiijzLJH2ZTRQqGMJLbu/V8JxU0D1NZPfT7pJAuMhtAhmhcWjBEhc44ixIPBflSTs7+BkIgUMmyjERChde+bmA00arf47JQA00CsnHkQaIS3zRQhUfC4iCQg2oSj5QpgWrKHSfw3zBtESFmrvxAjlCxvI0J0K7xoRIh+iTy3ECPy7XYnhgGTopZkvGuZihjzR1Nkr+swPp/o2ra7+G1/OjcGM8DW9bC+g1weVuE3aTB/+UJmqCTOHY1rGez09KGTSpPzfsm3T3HwRmv1rSeqyA7L+ur6/EsHK+8H3nHOXjPxjrtO1yr1pNrmpJSkOLZ0+hUTIpZPK1rIoPOhQDM1EbnSo0iwNtBSvofGD9LuijN+RTBFAAAAAElFTkSuQmCC
 9	iVBORw0KGgoAAAANSUhEUgAAABkAAAAeCAMAAADuMkXpAAAAw1BMVEUAAAABAQECAgIDAwMEBAQFBQUGBgYHBwcJCQkLCwsPDw8RERETExMgICAkJCQlJSUoKCgzMzNBQUFCQkJISEhKSkpUVFRcXFxdXV1vb29wcHB7e3t9fX2Pj4+QkJCRkZGVlZWgoKChoaGioqKtra2urq6ysrK0tLS3t7e8vLzCwsLIyMjJycnNzc3Ozs7Z2dnb29vd3d3g4ODj4+Pn5+fp6enw8PDx8fH19fX4+Pj5+fn6+vr7+/v8/Pz9/f3+/v7///8R4y2KAAABE0lEQVQokXXS6VaDMBQE4AkgqNWqda1brbvWfUElJJn3fypvUmzxkObvx0xu7gGQ4yyvkCfYeqMhHcNBEMOPAdIMR6R1DQWh0FjlyHBBa/9l5MvPHaRIcOcpGII7pzkuckAt3/sCNxOpN+WehKBwSdb+rkYcK96sKgUpPP1iXc9E+gyHqYSwhP1bUus/kQr9siEJT9nxw/ye0Dda8SEZHv3h9Tzj3M/3bngElNhaS2Sk596UkIixRZonRUMyPlvkqmqA2WkLLd/zmAQ6j4ov5EFUfKjsLcg4PhYxCXaWpRGR/dv60C+om6Ex5bastSNSV9vXTaGOiNV86kcy/irNyXo0Q1dxEpMpRSUUxsX/cAtEZv8FDgmLC6ysQ0MAAAAASUVORK5CYII=
-_______________________________________________________________
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 ## Sample output
 245763918

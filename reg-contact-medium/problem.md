@@ -9,7 +9,7 @@ The new signal data has been forwarded to your team for more advanced analysis. 
 
 
 ## INPUT
-Your input will be multiple lines of spaces and * characters, indicating the strength of the signal over time. Individual messages are indicated by a line of '_' characters.
+Your input will be multiple lines of spaces and * characters, indicating the strength of the signal over time. Individual messages are indicated by a line of '%' characters.
 
 ## OUTPUT
 You must output the decoded message in all caps, including spaces.
@@ -62,7 +62,7 @@ You must output the decoded message in all caps, including spaces.
                  **********************************************                 
                **************************************************               
                                ******************                               
-_______________________________________________________________
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 ## SAMPLE OUTPUT
 I?????????????????????????????????B????????????

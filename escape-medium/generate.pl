@@ -453,7 +453,7 @@ for(my $cases = 0; $cases < $casecnt; $cases++){
 		print DEBUG "\n";
 
 	}
-	print DEBUG "_______________________________________________________________\n";
+	print DEBUG "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n";
 	foreach my $ref (@finalpath){
 		my ($bx,$by) = split(/,/,$ref);
 		unless($board[$by][$bx] =~ /\d/){
@@ -473,7 +473,7 @@ for(my $cases = 0; $cases < $casecnt; $cases++){
 		print INFILE "\n";
 
 	}
-	print INFILE "_______________________________________________________________\n";
+	print INFILE "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n";
 	my $prev = "";
 	foreach my $ref (@finalpath){
 		my ($bx,$by) = split(/,/,$ref);
@@ -484,7 +484,7 @@ for(my $cases = 0; $cases < $casecnt; $cases++){
 		print OUTFILE "($bx,$by)\n";
 
 	}
-	print OUTFILE "_______________________________________________________________\n";
+	print OUTFILE "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n";
 
 		#<STDIN>;
 

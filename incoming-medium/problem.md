@@ -14,7 +14,7 @@ Your input will be a either a designation of a base identification number and lo
 Base locations are in the format: #=(x,y,z) 
 Projectile vectors are in the format: INCOMING=(x1,y1,z1)->(x2,y2,z2)
 
-Distinct scenarios are indicated by a line of '_' characters.
+Distinct scenarios are indicated by a line of '%' characters.
 
 
 ## OUTPUT
@@ -102,7 +102,7 @@ INCOMING=(49852,27594,20937)->(49732,26732,21671)
 INCOMING=(-992,2968,63142)->(-320,2866,62569)
 INCOMING=(84359,67592,-86266)->(84255,67015,-85317)
 INCOMING=(2462,44284,23881)->(3223,43433,24257)
-_______________________________________________________________
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 ## SAMPLE OUTPUT
 5,13,20

@@ -14,12 +14,12 @@ You will be provided an ASCII map consiting of spaces and '=' characters, as wel
 
 Alpha characters represent jump points. When you move to an position with an alpha character, you must note the position in your path, and your next position will be the other location of the corresponding alpha character.
 
-The end of a map is indicated by a line of '_' characters.
+The end of a map is indicated by a line of '%' characters.
 
 ## OUTPUT
 You must output the (x,y) coordinates that provide the shortest route to escape, as shown below. The first coordinate will always be the location of the 'S', and the last will always be the coordinate of the 'E'.
 
-Each set of coordinates for a route should end in a line of '_' characters.
+Each set of coordinates for a route should end in a line of '%' characters.
 
 ## SAMPLE INPUT
 =======================================S============
@@ -74,7 +74,7 @@ E  ==  == = = =   ===  =============================
 == ====   ===   ===== ==============================
 ====    ==    =  ==   ==============================
 ====================================================
-_______________________________________________________________
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 ## SAMPLE OUTPUT
 (40,1)
@@ -212,4 +212,4 @@ _______________________________________________________________
 (3,48)
 (2,48)
 (1,48)
-_______________________________________________________________
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

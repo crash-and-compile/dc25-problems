@@ -149,10 +149,10 @@ for(my $cases = 0; $cases < $casecnt; $cases++){
 		}
 		$answer = join(",",@answer);
 		print OUTFILE "$answer\n";	
-		print INFILE "_______________________________________________________________\n";
+		print INFILE "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n";
 		print DEBUG "CASE $cases\n";
 		print DEBUG @debug;
-		print DEBUG "_______________________________________________________________\n";
+		print DEBUG "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n";
 	}
 
 }

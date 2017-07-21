@@ -294,7 +294,7 @@ for(my $cases = 0; $cases < $casecnt; $cases++){
 	#print $out $img->png;
 	$encoded =~ s/\n//g;
 	print INFILE "$encoded\n";
-	print INFILE "_______________________________________________________________\n";
+	print INFILE "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n";
 	my $targeted = join(",",@targeted);
 	if($targeted eq ""){ $targeted = "NONE";}
 	print OUTFILE $targeted . "\n";

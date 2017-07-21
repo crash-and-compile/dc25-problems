@@ -112,7 +112,7 @@ for(my $cases = 0; $cases < $casecnt; $cases++){
 		$mapping{$ref{$encoded}} = $cnt;
 		$cnt++;
 	}
-	print INFILE "_______________________________________________________________\n";
+	print INFILE "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n";
 	print HTML "<br>\n";
 	my $order = "";
 	foreach my $key (sort {$a <=> $b} keys %mapping){

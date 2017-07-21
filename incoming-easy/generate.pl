@@ -137,12 +137,12 @@ for(my $cases = 0; $cases < $casecnt; $cases++){
 		foreach my $msg (@msgs){
 			print INFILE "$msg\n";
 		}
-		print INFILE "_______________________________________________________________\n";
+		print INFILE "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n";
 		$answer = join(",",@answer);
 		print OUTFILE "$answer\n";
 		print DEBUG "CASE $cases\n";
 		print DEBUG @debug;
-		print DEBUG "_______________________________________________________________\n";
+		print DEBUG "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n";
 	}
 }
 

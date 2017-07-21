@@ -14,7 +14,7 @@ Your input will be a either a designation of a vessel identification number and 
 Vessel locations are in the format: #=(x,y) 
 Torpedo vectors are in the format: INCOMING=(x1,y1)->(x2,y2)
 
-Individual scenarios for a grid location are indicated by a line of '_' characters.
+Individual scenarios for a grid location are indicated by a line of '%' characters.
 
 
 ## OUTPUT
@@ -98,7 +98,7 @@ INCOMING=(38536,24897)->(38824,24436)
 INCOMING=(65273,17364)->(64421,17076)
 INCOMING=(9055,18655)->(9897,18316)
 INCOMING=(47824,18695)->(48752,17765)
-_______________________________________________________________
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
                      
 ## SAMPLE OUTPUT
 7

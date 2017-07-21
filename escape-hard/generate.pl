@@ -429,7 +429,7 @@ for(my $cases = 0; $cases < $casecnt; $cases++){
 		print DEBUG "\n";
 
 	}
-	print DEBUG "_______________________________________________________________\n";
+	print DEBUG "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n";
 	foreach my $ref (@jumppath){
 		my ($bx,$by) = split(/,/,$ref);
 		$board[$by][$bx] = " ";
@@ -447,7 +447,7 @@ for(my $cases = 0; $cases < $casecnt; $cases++){
 		print INFILE "\n";
 
 	}
-	print INFILE "_______________________________________________________________\n";
+	print INFILE "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n";
 	foreach my $ref (@jumppath){
 		my ($bx,$by) = split(/,/,$ref);
 		$bx++;
@@ -455,7 +455,7 @@ for(my $cases = 0; $cases < $casecnt; $cases++){
 		print OUTFILE "($bx,$by)\n";
 
 	}
-	print OUTFILE "_______________________________________________________________\n";
+	print OUTFILE "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n";
 
 		#<STDIN>;
 

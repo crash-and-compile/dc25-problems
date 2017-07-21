@@ -12,7 +12,7 @@ Shortly after detection of the "convoy" message, the signal changed again. The s
 You must determine a way to decode the messages, so that mission control can attempt to identify whether this is a significant threat.
 
 ## INPUT
-The signal data has been encoded using four characters: '.','o','O' and '0'. The number of each character on a line indicates the signal strength for that carrier signal element. The end of the message is indicated by a line of '_' characters.
+The signal data has been encoded using four characters: '.','o','O' and '0'. The number of each character on a line indicates the signal strength for that carrier signal element. The end of the message is indicated by a line of '%' characters.
 
 ## OUTPUT
 You must output the decoded message in all caps, including spaces, one per line.
@@ -43,7 +43,7 @@ ooo.oo.OO0.0OO0oOOoo.O.oOoo.Oo..O00.oOO.OOooO0O.oOOO...O.oO0.ooo0
 oOO.oOOO.0.Oo.OOOO0o0OoO..O.O0oOoo.oo.o.0oOoo.Ooo0Oo.o.ooooo..oo0
 0oo.0Oooooo.ooooooo.o0.ooo.oO.0o.o.OooO.00oooo.o.ooooooo.Oo.o.ooo
 0.oo0OOOO.O0..ooOOoO.ooo.oo.o.0oooOo.OOoOO.ooOo..Ooo.OOoooOOooo0o
-_______________________________________________________________
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 ## SAMPLE OUTPUT
 INIT?????????????????????
