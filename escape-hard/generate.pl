@@ -432,7 +432,9 @@ for(my $cases = 0; $cases < $casecnt; $cases++){
 	print DEBUG "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n";
 	foreach my $ref (@jumppath){
 		my ($bx,$by) = split(/,/,$ref);
-		$board[$by][$bx] = " ";
+		unless($board[$by][$bx] ne "|"){
+			$board[$by][$bx] = " ";
+		}
 	}
 	my $start = $jumppath[0];
 	my ($sx,$sy) = split(/,/,$start);
