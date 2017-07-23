@@ -99,7 +99,7 @@ my %n2l = reverse %l2n;
 		$bad1 = "o";
 		$bad2 = "O";
 		$filler = "0";
-	} elsif(($mix % 3) == 0){
+	} elsif(($mix % 2) == 0){
 		$good = "0";
 		$bad1 = ".";
 		$bad2 = "o";
