@@ -43,7 +43,7 @@ for(my $cases = 0; $cases < $casecnt; $cases++){
         #$blue = $img->colorAllocate(0,0,255);
 	foreach my $piece (sort @pieces){
 		unless($piece =~ /\.png/){ next;}
-		print "$piece\n";
+                #print "$piece\n";
 		$img = newFromPng GD::Image("$files/$piece", 1);
 	        $white = $img->colorAllocate(255,255,255);
 		my $width = $img->width;
