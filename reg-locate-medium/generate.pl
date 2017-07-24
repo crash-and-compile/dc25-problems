@@ -29,14 +29,17 @@ for(my $cases = 0; $cases < $casecnt; $cases++){
 		my %stars = ();
 		my %colored = ();
 		my %history = ();
+		my $targetref = (int(rand(100)) % 6);
+		my $targetx = 0;
+		my $targety = 0;
 		for(my $i = 0; $i < 5; $i++){
-			my $x = int(rand(50));
-			my $y = int(rand(50));
+			my $x = int(rand(43)) + 5;
+			my $y = int(rand(43)) + 5;
 			my $spaced = 0;
 			while($spaced == 0){
 				my $overlap = 0;
-				for(my $xc = ($x - 3); $xc < ($x + 3); $xc++){
-					for(my $yc = ($y - 3); $yc < ($y + 3); $yc++){
+				for(my $xc = ($x - 10); $xc < ($x + 10); $xc++){
+					for(my $yc = ($y - 10); $yc < ($y + 10); $yc++){
 						if($stars{"$xc,$yc"} ne ""){
 							#print "($x,$y) OVERLAP WITH $xc,$yc...\n";
 							$overlap++;
@@ -46,8 +49,8 @@ for(my $cases = 0; $cases < $casecnt; $cases++){
 				if($overlap == 0){
 					$spaced++;
 				} else {
-					$x = int(rand(50));
-					$y = int(rand(50));
+					$x = int(rand(43)) + 5;
+					$y = int(rand(43)) + 5;
 				}
 			}		
 			if(($x % 10) == 0){
@@ -64,13 +67,18 @@ for(my $cases = 0; $cases < $casecnt; $cases++){
 					$y++;
 				}
 			}
-			$stars{"$x,$y"} = 1;
-			$colored{"$x,$y"} = "black";
-			$history{"$x,$y"} = 1;
+			if($i == $targetref){
+				$targety = $y;
+				$targetx = $x;
+				$stars{"$x,$y"} = 1;
+			} else {
+				$stars{"$x,$y"} = 1;
+				$colored{"$x,$y"} = "black";
+				$history{"$x,$y"} = 1;
+			}
 		}
+
 		my $targetw = 1;
-		my $targetx = int(rand(50));
-		my $targety = int(rand(50));
 		if($targetx > 40){
 			$outx = "E";
 		} elsif($targetx > 30){
@@ -136,6 +144,7 @@ for(my $cases = 0; $cases < $casecnt; $cases++){
 					$img->fgcolor(black);		
 				}
 				my ($x,$y) = split(/,/,$star);
+				if(($x == $targetx)&&($y == $targety)){ next; }
 				$img->moveTo($x+$xoffset,$y+$yoffset);
 				if($i == 8){
 					my @history = split(//,$history{"$x,$y"});
