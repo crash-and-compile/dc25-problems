@@ -17,7 +17,7 @@ open(INFILE,">$problem_file");
 open(OUTFILE,">$solution_file");
 
 #open(DEBUG, '>&', \*STDOUT);
-#open(DEBUG, ">./debug");
+#open(HTML, ">./debug.html");
 
 opendir(IMAGES,"images");
 my @files = readdir IMAGES;

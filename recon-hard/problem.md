@@ -3,7 +3,7 @@
 <!-- GENERATOR: generate.pl -->
 # RECON
 
-MISSION DIRECTIVE: Reconaiisance teams have isolated multiple enemy installations. Intelligence continues to trickle in about potential targets, however we only get one shot at this. We do not have enough munitions to cover all targets, we need to isolate only the relevant sectors for our bombing campaigns. 
+MISSION DIRECTIVE: Reconnaissance teams have isolated multiple enemy installations. Intelligence continues to trickle in about potential targets, however we only get one shot at this. We do not have enough munitions to cover all targets, we need to isolate only the relevant sectors for our bombing campaigns. 
 
 The latest batch of intelligence photos should provide enough information for us to finally take the fight back to the invasion fleet and push them out of our system. They contain critical information about topography for the regions. The images we have recieved, however, have been modified during transmission by enemy interceptors. The images have not only been reordered, but have been rotated in some cases as well.
 
