@@ -17,7 +17,7 @@ open(INFILE,">$problem_file");
 open(OUTFILE,">$solution_file");
 
 #open(DEBUG, '>&', \*STDOUT);
-#open(HTML, ">./debug.html");
+open(HTML, ">./debug.html");
 
 opendir(IMAGES,"images");
 my @files = readdir IMAGES;
@@ -44,7 +44,7 @@ for(my $cases = 0; $cases < $casecnt; $cases++){
 	my $ocnt = 1;
 	my %unrotated = ();
 	my %rotated = ();
-	foreach my $piece (@pieces){
+	foreach my $piece (sort @pieces){
 		unless($piece =~ /\.png/){ next;}
 		$img = newFromPng GD::Image("$files/$piece");
 		my $width = $img->width;
