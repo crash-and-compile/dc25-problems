@@ -4,13 +4,22 @@ use GD::Simple;
 use MIME::Base64;
 use List::Util qw(shuffle);
 
-($case) = @ARGV;
-my $solution_file = $case;
-my $problem_file = $case;
-my $debug = $case;
-open(INFILE,">input/$problem_file");
-open(OUTFILE,">output/$solution_file");
-open(HTML,">debug/$case.html");
+use File::Path;
+use File::Basename;
+
+($problem_file, $solution_file) = @ARGV;
+my $basepath = "./";
+my($filename, $dirs, $suffix) = fileparse($problem_file);
+unless(-d $dirs){ make_path($dirs); }
+my($filename, $dirs, $suffix) = fileparse($solution_file);
+unless(-d $dirs){ make_path($dirs); }
+open(INFILE,">$problem_file");
+open(OUTFILE,">$solution_file");
+
+#open(HTML, '>&', \*STDOUT);
+#open(HTML, ">./debug.html");
+
+
 opendir(IMAGES,"images");
 my @files = readdir IMAGES;
 my @imgs = ();
@@ -29,26 +38,26 @@ for(my $cases = 0; $cases < $casecnt; $cases++){
 
 	my $incnt = 0;
 	my $img = new GD::Image(100,100);
-	$white = $img->colorAllocate(255,255,255);
-	$black = $img->colorAllocate(0,0,0);       
-	$red = $img->colorAllocate(255,0,0);      
-	$blue = $img->colorAllocate(0,0,255);
-	foreach my $piece (@pieces){
-		print "$piece\n";
+        #$black = $img->colorAllocate(0,0,0);       
+        #$red = $img->colorAllocate(255,0,0);      
+        #$blue = $img->colorAllocate(0,0,255);
+	foreach my $piece (sort @pieces){
 		unless($piece =~ /\.png/){ next;}
-		$img = newFromPng GD::Image("$files/$piece");
+		print "$piece\n";
+		$img = newFromPng GD::Image("$files/$piece", 1);
+	        $white = $img->colorAllocate(255,255,255);
 		my $width = $img->width;
 		my $height = $img->height;
-		    $img->transparent($white);
+                    #$img->transparent($white);
 		    $img->interlaced('true');
 		if($incnt == 0){
-			$img->filledRectangle($width-10,$height-10,$width,$height,$yr);
+			$img->filledRectangle($width-10,$height-10,$width,$height,$white);
 		} elsif($incnt == 1){
-			$img->filledRectangle($width-10,0,$width,10,$yr);
+			$img->filledRectangle(0,$height,10,$height-10,$white);
 		} elsif($incnt == 2){
-			$img->filledRectangle(0,$height,10,$height-10,$yr);
+			$img->filledRectangle($width-10,0,$width,10,$white);
 		} elsif($incnt == 3){
-			$img->filledRectangle(0,0,10,10,$yr);
+			$img->filledRectangle(0,0,10,10,$white);
 		}
 		my $encoded = MIME::Base64::encode($img->png);
 		$encoded =~ s/\n//g;

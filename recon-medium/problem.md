@@ -14,7 +14,7 @@ The input will be a series of index values and Base64 encoded images, tab delimi
 Groups of images are indicated by a line of '%' characters.
  
 ## The Output
-You must output the correct sequence to order the images, left-to-right, top-to bottem. For example, to order the images like:
+You must output the correct sequence to order the images, left-to-right, top-to bottom. For example, to order the images like:
 12
 34
 the output should be 1234.
