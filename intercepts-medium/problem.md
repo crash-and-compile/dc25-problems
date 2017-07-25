@@ -16,8 +16,9 @@ Your input will be a series of alphanumeric characters, with one message per lin
 You must output the decoded message in all capital letters, one message per line. Output messages will have no spaces.
 
 ## SAMPLE INPUT
-T#Z-C# TN#YNM^K )PUCMLLE% U@#C%P%H FH=-#P PVETN=LN
+    T#Z-C# TN#YNM^K )PUCMLLE% U@#C%P%H FH=-#P PVETN=LN
 
 ## SAMPLE OUTPUT
-?
+    ?
+
 MISSION NOTE: We have yet to decode the current set of signals, this is your mission. Crack the cipher and then decode all messages.

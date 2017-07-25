@@ -16,7 +16,9 @@ Your input will be a series of alphanumeric characters, with one message per lin
 You must output the decoded message in all capital letters, including spaces, one message per line.  Any trailing spaces at the end of a line should be trimmed.
 
 ## SAMPLE INPUT
-89BBbBb98B8BBB8BBB88BbBBBBP9Bd889BPdB888BB8B8B8889BB8BbdBPBBdBd9BBBBBB88B8888dB88BP9                     
+    89BBbBb98B8BBB8BBB88BbBBBBP9Bd889BPdB888BB8B8B8889BB8BbdBPBBdBd9BBBBBB88B8888dB88BP9                     
+
 ## SAMPLE OUTPUT
-?
+    ?
+
 MISSION NOTE: We have yet to decode the current set of signals, this is your mission. Crack the cipher and then decode all messages.
