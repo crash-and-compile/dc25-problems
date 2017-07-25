@@ -3,7 +3,7 @@
 <!-- GENERATOR: generate.pl -->
 # RECON
 
-MISSION DIRECTIVE: The mutliple waves of attacks have been devestating, but thanks to your assistance we were able to evacuate critical staff and mount an offensive. We have pushed them off the planet, but now must take the fight to them. The alien forces have managed to establish a foothold on nearby planets, and their forces are starting to coalesce in order to launch further attacks.
+MISSION DIRECTIVE: The multiple waves of attacks have been devastating, but thanks to your assistance we were able to evacuate critical staff and mount an offensive. We have pushed them off the planet, but now must take the fight to them. The alien forces have managed to establish a foothold on nearby planets, and their forces are starting to coalesce in order to launch further attacks.
 
 We have sent out multipe recon teams to identify enemy staging points on other planets of interest. Unfortunately, the incoming packets transmitted by the recon teams have been modified by the enemy. We can't see the images.
 

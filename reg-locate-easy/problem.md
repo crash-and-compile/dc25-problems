@@ -8,7 +8,7 @@ MISSION DIRECTIVE: Intelligence and decryption services have detected anomolous 
 Begin analysis of primary sectors G-9 through G-21. The key indicator of a potentially inhabitable star system is a red shift in the light detected by our sensors. Report all positive hits immediately to command. Each sector has supplied scans of light readings over a period of time. 
 
 ## INPUT
-The input will be a series of Base64 encoded images, one per line. Each sector will have mutliple images associated with it, representing light readings over time.
+The input will be a series of Base64 encoded images, one per line. Each sector will have multiple images associated with it, representing light readings over time.
 
 Images for different sectors are indicated by a line of '%' characters.
 
