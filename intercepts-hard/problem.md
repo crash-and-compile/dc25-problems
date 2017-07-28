@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="WannaCry/style.css">
 <div id="main">
 <div class="top-bar">
-<span class="text">Wanna DecryptOr 2.0</span>
+<span class="text">Wana DecryptOr 2.0</span>
 <span id="close">x</span>
 </div>
 <div id="wannacry" class="wannacry">
@@ -33,7 +33,7 @@
 
 <div class="main">
 <div style="height: 3em;">
-<div class="oops">Ooops, your files have been encrypted!</div>
+<div class="oops">Ooops, your problem has been encrypted!</div>
 <div class="langsel">
 <select>
 <option value="English">English</option>
@@ -43,16 +43,16 @@
 <div class="textarea">
 <h2>What Happened to My Computer?</h2>
 
-<p>Your important files are encrypted.<br/>
-Many of your documents, photos, videos, databases and other files are no longer accessible because they have been encrypted. Maybe you are busy looking for a way to recover your files, but do not waste your time. Nobody can recover your files without our decryption engine.</p>
+<p>Your valuable problem is encrypted.<br/>
+Many of your points, beers, distractions, databases and other items are no longer accessible because they have been encrypted. Maybe you are busy looking for a way to recover your files, but do not waste your time. Nobody can recover your files without our decryption engine.</p>
 
 <h2>Can I Recover My Files?</h2>
-<p>Sure. We guarantee that you can recover all your files safely and easily.<br/>
-But you have not so enough time. You can decrypt some of your for free. Try now by clicking &lt;Decrypt&gt;.<br/>
-But if you want to decrypt all your files, you need to pay.<br/>
-You only have 3 days to submit the payment. After that the price will be doubled.<br/>
-Also, if you don’t pay in 7 days, you won’t be able to recover your files forever.<br/>
-We will have free events for users who are so poor that they couldn’t pay in 6 months.
+<p>Sure. We guarantee that you can recover your problem safely and easily.<br/>
+But you have not so enough time. You can click &lt;Decrypt&gt; for free. Try now!.<br/>
+But if you want to decrypt the problem, you need to pay.<br/>
+You only have 1 days to submit the payment. After that the price will be doubled.<br/>
+Also, if you don’t pay in 4 days, you won’t be able to recover your problem forever.<br/>
+We will have free events for users who are so poor that they couldn’t pay in 6 months.</p>
 
 <h2>How Do I Pay?</h2>
 
