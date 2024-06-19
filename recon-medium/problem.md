@@ -15,9 +15,11 @@ Groups of images are indicated by a line of '%' characters.
  
 ## The Output
 You must output the correct sequence to order the images, left-to-right, top-to bottom. For example, to order the images like:
-12
-34
-the output should be 1234.
+	12
+	34
+
+the output should be
+	1234
 
 ## Sample input
     1	iVBORw0KGgoAAAANSUhEUgAAACUAAAAtCAMAAAFpFGLKAAAA7VBMVEUAAAD////+/v79/f38/Pz7+/v6+vr5+fn4+Pj39/f09PTz8/Px8fHw8PDv7+/r6+vj4+Ph4eHg4ODd3d3V1dXT09PS0tLR0dHPz8/MzMzDw8PBwcHAwMC8vLy2traxsbGwsLCtra2goKCcnJyampqTk5OQkJCNjY2MjIyHh4eEhIR+fn5sbGxkZGRiYmJeXl5dXV1ZWVlXV1dWVlZOTk5LS0tJSUlGRkY/Pz88PDwyMjIxMTEvLy8oKCgnJycfHx8dHR0aGhoXFxcVFRUTExMREREPDw8JCQkHBwcGBgYFBQUEBAQDAwMCAgIBAQGoU8nhAAAAAXRSTlMAQObYZgAAAWxJREFUOI2dlOlWwjAQhe8kFCqouIsb7gvuirgrbqhIyPs/jklrW9rB0+j9MWfO7dcsN2lBVjDygwoR1CkMKmbCeh6SvC7LCLTykraftHhNWqRaimRfSOaEXhHx65Mi6lTcoRl3Ohnwb93HzjhJEgMrCPX1NloUGc+qXhLMM7MLkfWgqwXmQUvu9RvcixL/t0dMwZPrWrLZiZ+UFU4qMhuAwh7LBN07ZkG98JTUTYGFpPaLLDeMFUTGUi3KWtBmeRmrt8UovHNLcwsVTs1zapNbB9xqcuuWW0/c6g87NfTUY+twd22u6tszEuZSxRczPLFaEqHWtt5vz5aJTIoiTaaH16oHHC8QeRmML8KAZzNUSk3MqQB8rpM/wA2l7AfdXhTFmPuFshfu1Jcyj4JGZ4m8PAr4xAZ5Mo9CF+s2vRzKbKJGMpfSuCjnzmh3WnegNC5H8imjaQdKY9VprIYTdeREXTlRD05Ux4myP71vtwgZ5CjqMaEAAAAASUVORK5CYII=

@@ -17,10 +17,13 @@ Groups of images are indicated by a line of '%' characters.
  
 ## The Output
 You must output the correct sequence to order the images, left-to-right, top-to bottem. For example, to order the images like:
-123
-456
-789
-the output should be 123456789.
+	123
+	456
+	789
+
+the output should be
+
+	123456789
 
 
 ## Sample input
